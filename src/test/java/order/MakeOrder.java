@@ -21,7 +21,6 @@ public class MakeOrder {
 //      driver = new FirefoxDriver(); //для проверки браузера Firefox
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
-
     @Test
     public void firstСheck() {
         OrderElements objOrderElements = new OrderElements(driver);

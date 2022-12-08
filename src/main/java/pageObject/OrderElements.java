@@ -2,6 +2,7 @@ package pageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 public class OrderElements {
+
     private WebDriver driver;
     private final String url = "https://qa-scooter.praktikum-services.ru/"; //URL
     private By buttonUpOrder = By.className("Button_Button__ra12g"); //проверка кнопки "Заказать" вверху страницы

@@ -83,7 +83,6 @@ public class HomePage {
     public boolean isAnswerLiveOutsideMoscow() { // проверка наличия текста в ответе на 8й вопрос
         return driver.findElements(answerLiveOutsideMoscow).size() > 0;
     }
-
     public OrderElements orderPage() {
         return new OrderElements(driver);
     }
